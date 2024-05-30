@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url("images/emily-sea-coiWR0gT8Cw-unsplash.jpg");
+    background-size: cover;
+    height: 1300px;
+
+}
+
+.left {
+    /* border: 2px solid rgb(59, 138, 39); */
+    display: inline-block;
+    position: absolute;
+    left: 50px;
+    top: 10px;
+}
+
+.left img {
+    width: 120px;
+}
+
+.left div {
+    text-align: center;
+    line-height: 0px;
+    font-size: 23px;
+}
+
+.mid {
+    /* border: 2px solid rgb(153, 28, 28); */
+    display: block;
+    width: 35%;
+    margin: 40px auto;
+}
+
+.right {
+    /* border: 2px solid rgb(106, 23, 122); */
+    position: absolute;
+    right: 35px;
+    top: 20px;
+    display: inline-block;
+
+}
+
+.mid ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.mid li a {
+    text-decoration: none;
+    color: antiquewhite;
+    font-weight: 500;
+    font-size: 19px;
+}
+
+.mid li a:hover {
+    color: rgb(68, 4, 4);
+    text-decoration: underline;
+}
+
+.btn {
+    color: white;
+    background-color: #4c657c;
+    margin: 18px 9px;
+    padding: 5px 14px;
+    border: 1px solid whitesmoke;
+    border-radius: 4px;
+    font-size: 15px;
+    cursor: pointer;
+    width: 120px;
+    font-family: "Signika Negative", sans-serif;
+}
+
+.btn:hover {
+    background-color: gray;
+}
+
+.container {
+    border: 2px solid whitesmoke;
+    border-radius: 4px;
+    padding: 20px 40px;
+    margin: 100px 30px;
+    width: 33%;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    width: 300px;
+    margin: 12px auto;
+    font-size: 16px;
+}
+
+.container input {
+    border: 2px solid whitesmoke;
+    border-radius: 4px;
+    font-size: 16px;
+    text-align: center;
+    display: block;
+    width: 270px;
+    margin: 5px auto;
+    padding: 10px 12px;
+}
