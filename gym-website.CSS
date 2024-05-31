@@ -3,7 +3,9 @@ body {
     padding: 0;
     background: url("images/emily-sea-coiWR0gT8Cw-unsplash.jpg");
     background-size: cover;
-    height: 1300px;
+    background-repeat: no-repeat;
+    height: 1500px;
+    
 
 }
 
@@ -106,3 +108,63 @@ body {
     margin: 5px auto;
     padding: 10px 12px;
 }
+
+/* // make our website responsive //  */
+
+@media only screen and (max-width:1300px) {
+    .mid {
+        display: block;
+        width: 35%;
+        margin-right: 40px;
+    }
+    .mid ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: last baseline;
+        justify-content: space-evenly;
+    }
+    
+    .mid li a {
+        text-decoration: none;
+        color: antiquewhite;
+        font-weight: 500;
+        font-size: 23px;
+    }
+    .right {
+        position: absolute;
+        left: 35px;
+        top: 830px;
+        display: inline-block;
+    }
+}
+@media only screen and (max-width:850px) {
+    .container {
+        width: 50%;
+        margin: 180px 30px;
+    }
+    .container input{
+        width: 40vw;
+    }
+    .container button {
+       width: 43vw;
+    }
+    .container h1 {
+        font-size: 23px;
+    }   
+}
+@media only screen and (max-width:600px) {
+    .mid {
+        width: 70%;
+        margin-right: 80px;
+        margin-top: 150px;
+    }
+   
+    .mid li a {
+        text-decoration: none;
+        color: rgb(20, 19, 17);
+        font-weight: 540;
+        font-size: 24px;
+    }
+}
+
